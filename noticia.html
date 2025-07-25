@@ -2,25 +2,98 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Notícia do Dia</title>
+    <title>Portal de Notícias - Notícia do Dia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 50px;
+        }
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        article {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+        article h2 a {
+            color: #003366;
+            text-decoration: none;
+        }
+        article h2 a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Brasil bate recorde de energia solar em julho</h1>
+    <header>
+        <div style="display: flex; align-items: center;">
+            <img src="https://media.istockphoto.com/id/1182477852/pt/foto/breaking-news-world-news-with-map-backgorund.jpg?s=1024x1024&w=is&k=20&c=GBivh_st_eoUmx1U7IZw4mQQ2M_Dc9HEmMjivb_7bZ8=" alt="Logo do Portal">
+            <h1 style="margin-left: 10px;">Portal de Notícias</h1>
+        </div>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="politica.html">Política</a>
+            <a href="economia.html">Economia</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
 
-    <h2>Energia solar já representa mais de 10% da matriz elétrica nacional</h2>
+    <main>
+        <article>
+            <h2><a href="noticia-chuva.html">Chuva intensa atinge o sul do país</a></h2>
+            <h3>População deve ficar atenta aos alertas da Defesa Civil</h3>
+            <p><strong>Uma frente fria</strong> trouxe chuvas fortes para várias cidades da região sul nesta semana.</p>
+            <p>De acordo com o <em>Instituto Nacional de Meteorologia</em>, o volume de água pode ultrapassar os 100mm em algumas áreas.</p>
+            <p><u>Moradores</u> de áreas de risco devem buscar abrigo em locais seguros.</p>
+            <p>Além disso, é importante <mark>evitar transitar</mark> por áreas alagadas para prevenir acidentes.</p>
+        </article>
 
-    <p><strong>Brasília, 25 de julho de 2025</strong> — O Brasil atingiu um marco histórico na produção de <em>energia solar</em>, com a geração superando 25 gigawatts de potência instalada, segundo dados da Associação Brasileira de Energia Solar (ABSOLAR).</p>
+        <article>
+            <h2><a href="noticia-economia.html">Economia brasileira cresce 2% no segundo trimestre</a></h2>
+            <h3>Setor agrícola e indústria puxam o crescimento</h3>
+            <p>Segundo o IBGE, o PIB teve um crescimento de <b>2%</b> impulsionado principalmente pelo setor agropecuário.</p>
+            <p>A indústria também apresentou sinais de recuperação, com aumento na produção de bens duráveis.</p>
+            <p><i>Especialistas</i> apontam que a tendência de crescimento pode continuar nos próximos meses.</p>
+            <p>O governo anunciou <small>medidas</small> para incentivar ainda mais a economia local.</p>
+        </article>
+    </main>
 
-    <p>A marca foi impulsionada por novos investimentos no setor e pelo aumento da procura por sistemas de geração distribuída. <u>Somente no primeiro semestre de 2025</u>, foram instalados mais de 3 gigawatts em residências e pequenas empresas.</p>
-
-    <p><mark>Especialistas apontam</mark> que a tendência de crescimento deve se manter nos próximos anos, graças aos incentivos fiscais e à queda no custo das tecnologias. A energia solar, além de limpa, tem se mostrado uma solução econômica para milhares de brasileiros.</p>
-
-    <p>Com esse crescimento, o país avança rumo a uma matriz mais sustentável. De acordo com a ABSOLAR, a meta é alcançar <b>40% de energia renovável</b> até 2030, considerando também fontes como eólica e biomassa.</p>
-
-    <hr>
-
-    <p><small>Fonte: Agência Brasil • Reportagem por João Silva</small></p>
+    <footer>
+        <p>Siga-nos nas redes sociais:</p>
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a> |
+        <a href="https://www.twitter.com/" target="_blank">Twitter</a> |
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    </footer>
 
 </body>
 </html>
