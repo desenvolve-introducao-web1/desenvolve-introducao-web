@@ -1,0 +1,27 @@
+/* Base */
+html {
+    font-size: 20px; /* 1rem = 20px */
+}
+
+/* 1) Tamanhos de fonte */
+html h1 {
+    font-size: 2rem; /* 40px */
+}
+
+h1 > .principal {
+    font-size: 1.4em; /* 1.4 × 40px = 56px */
+}
+
+html .secundario {
+    font-size: 1.4rem; /* 28px */
+}
+
+.cor {
+    background: rgb(219, 78, 68);
+}
+.cor-clara {
+background: rgb(252, 90, 78);
+}
+.cor-escura {
+background: rgb(186, 66, 58);
+}
